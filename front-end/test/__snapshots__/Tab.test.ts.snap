@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tab.vue should initialize correctly 1`] = `
+<div>
+    <ul>
+        <li>
+            <button class="tab-title-current">
+                tab1-title
+            </button>
+        </li>
+        <li>
+            <button>
+                tab2-title
+            </button>
+        </li>
+        <li>
+            <button>
+                tab3-title
+            </button>
+        </li>
+    </ul>
+    <div style="display:block;">
+        tab1-content
+    </div>
+    <div style="display:none;">
+        tab2-content
+    </div>
+    <div style="display:none;">
+        tab3-content
+    </div>
+</div>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HelloWorld.vue should initialize correctly 1`] = `
+<div class="hello">
+    <h1>Hello!!</h1>
+    <img src="/assets/logo.png">
+    <button>
+        button
+    </button>
+</div>
+`;

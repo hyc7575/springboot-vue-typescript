@@ -1,28 +1,17 @@
 {
-  "compilerOptions": {
-    "strict": true,
-    "target": "es5",
-    "module": "es6",
-    "moduleResolution": "node",
-    "experimentalDecorators": true,
-    "typeRoots": [
-      "./node_modules/@types/",
-      "./typings"
-    ],
-    "types": [
-      "vue-typescript-import-dts"
-    ],
-    "lib": [
-      "dom",
-      "es2015",
-      "es2015.promise"
-    ]
-  },
-  "include": [
-    "front-end/src/**/*"
-  ],
-  "exclude": [
-    "node_modules",
-    "**/*.spec.ts"
-  ]
+    "compilerOptions": {
+        "target": "es5",
+        "strict": true,
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "lib": ["dom", "es5", "es2015.promise", "es2017", "es6"],
+        "module": "es2015",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "noImplicitAny": false
+    },
+    "include": ["src/**/*", "test/**/*"],
+    "exclude": ["node_modules"]
 }
