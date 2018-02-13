@@ -3,7 +3,7 @@
         "target": "es5",
         "strict": true,
         "allowJs": true,
-        "allowSyntheticDefaultImports": true,
+        "allowSyntheticDefaultImports": true, // .vue 컴포넌트의 값도 import받을 수 있도록 설정
         "lib": ["dom", "es5", "es2015.promise", "es2017", "es6"],
         "module": "es2015",
         "moduleResolution": "node",
